@@ -23,6 +23,9 @@ dependencies {
 
     implementation 'org.hibernate.validator:hibernate-validator:6.1.6.Final'
 
+    implementation 'org.postgresql:postgresql:42.3.3'
+
+
     testImplementation 'junit:junit:4.11'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
